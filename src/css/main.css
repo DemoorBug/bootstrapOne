@@ -1,5 +1,40 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1480400234955');
+  src: url('../font/iconfont.eot?t=1480400234955#iefix') format('embedded-opentype'), url('../font/iconfont.woff?t=1480400234955') format('woff'), url('../font/iconfont.ttf?t=1480400234955') format('truetype'), url('../font/iconfont.svg?t=1480400234955#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-ttpodicon:before {
+  content: "\e6a6";
+}
+.icon-liuyanicon:before {
+  content: "\e620";
+}
+.icon-zhinan:before {
+  content: "\e692";
+}
+.icon-shangcheng:before {
+  content: "\e821";
+}
+::-moz-selection {
+  background-color: #b3d4fc;
+  /* 此属性为 选中设置 */
+  text-shadow: none;
+}
+::selection {
+  background-color: #b3d4fc;
+  /* 此属性为 选中设置 */
+  text-shadow: none;
+}
 .container {
-  width: 1160px !important;
+  width: 1260px !important;
 }
 body {
   font-family: "微软雅黑";
@@ -31,7 +66,7 @@ body {
 }
 a:focus,
 a:hover {
-  color: red;
+  color: #FF9800;
   text-decoration: underline;
 }
 a {
@@ -80,9 +115,294 @@ a {
   background-size: 100%;
   overflow: hidden;
 }
+.bx-prev {
+  background: url('../images/left.jpg') no-repeat;
+  width: 62px;
+  height: 68px;
+  text-indent: -999999px;
+  z-index: 999;
+  position: absolute;
+  float: left;
+  left: -62px;
+  top: 126px;
+}
+.bx-next {
+  background: url('../images/right.jpg') no-repeat;
+  width: 62px;
+  height: 68px;
+  text-indent: -999999px;
+  z-index: 999;
+  position: absolute;
+  top: 126px;
+  right: -62px;
+}
 .banner div {
   width: 100%;
   height: 399px;
+}
+.Ones {
+  background: #f8f8f8;
+}
+.Ones .container {
+  padding: 20px 0;
+}
+.Ones img {
+  width: 100%;
+  height: 320px;
+}
+.Ones li {
+  width: 220px;
+  float: left;
+  margin-right: 5px;
+}
+.Ones li img {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.Ones li:hover img {
+  opacity: .8;
+}
+.Ones .bxslider {
+  width: 1120px;
+  margin: 0 auto;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+}
+.Ones .bx-wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+.header-bar p {
+  width: 319px;
+  margin: 0 auto;
+  height: 16px;
+  background: url('../images/kun.png');
+}
+.huhei {
+  background: url('../images/banner2.jpg') no-repeat center;
+  height: 400px;
+}
+.huhei .header-bar {
+  color: #fff;
+  margin-top: 100px;
+}
+.huhei .header-bar p {
+  background: url('../images/default.png');
+}
+.huhei .wid {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+.huhei .wid a:hover {
+  text-decoration: none;
+}
+.huhei .wid .pIMg {
+  height: 50px;
+  width: 50px;
+}
+.huhei .wid .iconfont {
+  font-size: 40px;
+}
+.hsn {
+  background-color: #f8f8f8;
+}
+.hsn .container {
+  padding: 20px 0 40px;
+}
+.hsn .bxslider2 {
+  width: 1180px;
+  margin: 0 auto;
+}
+.hsn .bxslider2 li {
+  width: 236px;
+  float: left;
+  background-color: #f0f0f0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.hsn .bxslider2 li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #65c1ea;
+  box-shadow: 0 0 8px #999;
+}
+.hsn .bxslider2 li:hover a {
+  color: #fff;
+}
+.hsn .bxslider2 li:hover span.pull-right {
+  color: #fff;
+}
+.hsn .bxslider2 li a {
+  color: #222;
+}
+.hsn .bxslider2 li a p {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hsn .bxslider2 li a:hover {
+  text-decoration: none;
+}
+.hsn .bxslider2 li a .his {
+  float: left;
+  display: block;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hsn .bxslider2 li a span.pull-right {
+  color: #66c2eb;
+}
+.hsn .bxslider2 li a img {
+  width: 100%;
+}
+.hsn .bxslider2 li a .captions {
+  padding: 9px 9px 0;
+}
+.banneterr div {
+  width: 100%;
+  height: 447px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.banneterr div:hover {
+  opacity: .8;
+}
+.defa .container {
+  padding: 20px 0 40px;
+}
+.defa .container img {
+  width: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.defa .container img:hover {
+  opacity: .8;
+}
+.defa .container a {
+  color: #222;
+}
+.defa .container a:focus,
+.defa .container a:hover {
+  color: #FF9800;
+  text-decoration: none;
+}
+.geng a.ipsb {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  line-height: 50px;
+  color: #bababa;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #e8e8e8;
+}
+.geng a.ipsb:focus,
+.geng a.ipsb:hover {
+  border-color: #FF9800;
+  color: #FF9800;
+  text-decoration: none;
+}
+.mod {
+  background-color: #f8f8f8;
+}
+.mod .container {
+  padding: 20px 0 40px;
+}
+.mod .mod-z {
+  margin: 60px 0 40px;
+  border-top: 1px solid #dddddd;
+}
+.mod .mod-z .list-unstyled {
+  width: 798px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  position: relative;
+  margin-top: -25px;
+  background-color: #f8f8f8;
+}
+.mod .mod-z .list-unstyled li {
+  float: left;
+}
+.mod .mod-z .list-unstyled li.active a {
+  background-color: #41b5e6;
+  color: #fff;
+  border-left-color: #41b5e6;
+  text-decoration: none;
+}
+.mod .mod-z .list-unstyled a {
+  display: block;
+  width: 199px;
+  line-height: 50px;
+  text-align: center;
+  border-left: 1px solid #ddd;
+  cursor: pointer;
+  color: #222;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.mod .mod-z .list-unstyled a:hover {
+  background-color: #41b5e6;
+  color: #fff;
+  border-left-color: #41b5e6;
+  text-decoration: none;
+}
+.mod .mod-z .list-unstyled a:focus {
+  text-decoration: none;
+}
+.mod .mod-table .media-default {
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+  -webkit-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+}
+.mod .mod-table .active {
+  display: block;
+  visibility: visible;
+}
+.mod .mod-table .in {
+  opacity: 1;
+}
+.mod .higs {
+  height: 1px;
+  background: #dddddd;
+  margin: 20px 0;
+}
+.mod .media-left img {
+  width: 205px;
+  height: 150px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.mod .media-left img:hover {
+  opacity: .8;
+}
+.mod .media-body a {
+  color: #000;
+  text-decoration: none;
+}
+.mod .media-body a p {
+  height: 70px;
+  overflow: hidden;
+}
+.mod .media-body a:focus,
+.mod .media-body a:hover {
+  color: #FF9800;
+  text-decoration: none;
+}
+.mod .media-body h3 {
+  margin-top: 0;
+  height: 26px;
+  overflow: hidden;
+}
+.mod .media-body .media-span {
+  color: #b9b9b9;
 }
 
 /*# sourceMappingURL=./map/main.css.map */
