@@ -19,9 +19,20 @@
 
 .icon-liuyanicon:before { content: "\e620"; }
 
+.icon-weixin:before { content: "\e63b"; }
+
+.icon-dianhua:before { content: "\e60a"; }
+
+.icon-fanhuidingbu:before { content: "\e606"; }
+
+.icon-iconfonticonfonticonfont20:before { content: "\e638"; }
+
+.icon-kefu:before { content: "\e639"; }
+
 .icon-zhinan:before { content: "\e692"; }
 
 .icon-shangcheng:before { content: "\e821"; }
+
 ::-moz-selection {
   background-color: #b3d4fc;
   /* 此属性为 选中设置 */
@@ -212,6 +223,7 @@ a {
                 transform: scale(1.1);
                 background-color: #65c1ea;
                 box-shadow: 0 0 8px #999;
+                z-index: 1;
                 a {
                     color: #fff;
                 }
@@ -240,6 +252,7 @@ a {
             }
             img {
                 width: 100%;
+                height: 170px;
             }
             .captions {
                 padding: 9px 9px 0;
@@ -392,5 +405,155 @@ a {
             color:#b9b9b9;
         }
     }
+    .geng {
+        margin-top: 40px;
+    }
+}
+.hsa {
+    background-color: #FFF;
 
+    .bx-wrapper {
+        position: relative;
+    }
+    .bx-prev {
+        top: 95px;
+        left: -40px;
+        height: 53px;
+        width: 25px;
+        background: url('../images/leftOne.jpg');
+    }
+    .bx-next {
+        right: -40px;
+        top: 95px;
+        height: 53px;
+        width: 25px;
+        background: url('../images/rightOne.jpg');
+    }
+    .geng {
+        margin-top: 40px;
+    }
+}
+.bxslider3 {
+    height: 238px;
+    overflow: hidden;
+}
+.hsa .bxslider3 li:hover {
+    transform: scale(1);
+    background-color: #65c1ea;
+    box-shadow: 0 0 8px #999;
+    z-index: 1;
+}
+
+.footer {
+    width: 100%;
+    height: 307px;
+    background: url('../images/fonterBar.jpg') repeat-x left;
+    .rows {
+        margin-top: 90px;
+        color: #fff;
+        h4 {
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        a {
+            color: #9a9a9a;
+        }
+        a:focus, a:hover {
+            color: #FF9800;
+            text-decoration: underline;
+        }
+        .foimg {
+            p {
+                line-height: 34px;
+                text-indent: 30px;
+            }
+            .icon-x {
+                background: url('../images/icony.jpg') no-repeat left top;
+            }
+            .icon-y {
+                background: url('../images/iconx.jpg') no-repeat left top;
+            }
+            .icon-a {
+                background: url('../images/icona.jpg') no-repeat left top;
+            }
+        }
+    }
+}
+.banq {
+    height: 50px;
+    background: #222;
+    h4 {
+        margin: 0;
+        color: #fff;
+        line-height: 50px;
+    }
+}
+
+.comber {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    width: 60px;
+    margin-left: 570px;
+    z-index: 999;
+    .combercenter {
+        position: relative;
+        a {
+            display: block;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+        }
+        .iconfont {
+            font-size: 30px;
+        }
+        a:focus, a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .kefu {
+        background-color: #65c1ea;
+        color: #fff;
+        .ypy-mbar-tab-tip {
+            background-color: #65c1ea;
+            width: 80px;
+        }
+    }
+    .weixin {
+        background-color: #76c244;
+        color: #fff;
+        .ypy-mbar-tab-tip {
+            background-color: #76c244;
+        }
+    }
+    .dianhua {
+        background-color: #fe7f16;
+        color: #fff;
+        .ypy-mbar-tab-tip {
+            background-color: #fe7f16;
+            width: 130px;
+        }
+    }
+    .fanhui {
+        background-color: #646464;
+        color: #fff;
+        .ypy-mbar-tab-tip {
+            background-color: #646464;
+        }
+    }
+    .ypy-mbar-tab-tip {
+        display: none;
+        position: absolute;
+        right: 100px;
+        top: 0px;
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        color: #fff;
+        background-color: #494949;
+        box-sizing: content-box;
+    }
 }
