@@ -69,7 +69,7 @@ body {
 .header .pull-right a i {
   display: block;
   position: absolute;
-  left: -40px;
+  left: -30px;
   top: 50%;
   margin-top: -15px;
   width: 30px;
@@ -220,6 +220,12 @@ a {
 }
 .huhei .wid .iconfont {
   font-size: 40px;
+}
+.marin .container .bxslider2 {
+  width: 1230px;
+}
+.marin .container .bxslider2 li {
+  margin-right: 10px;
 }
 .hsn {
   background-color: #f8f8f8;
@@ -506,7 +512,7 @@ a {
   bottom: 20px;
   left: 50%;
   width: 60px;
-  margin-left: 570px;
+  margin-left: 630px;
   z-index: 999;
 }
 .comber .combercenter {
@@ -569,6 +575,219 @@ a {
   color: #fff;
   background-color: #494949;
   box-sizing: content-box;
+}
+/* 公司概括 */
+.gsgg {
+  margin: 10px 0;
+}
+.gsgg .gsgg-top,
+.gsgg .gsgg-bot {
+  background: #f3f3f3;
+}
+.gsgg .list-group li {
+  padding: 0;
+  text-align: center;
+}
+.gsgg .list-group li a {
+  display: block;
+  padding: 10px 15px;
+  color: #222;
+}
+.gsgg .list-group li .act {
+  olor: #3f7fb5;
+  background: #f9f9f9;
+}
+.gsgg .list-group li a:focus,
+.gsgg .list-group li a:hover {
+  color: #3f7fb5;
+  background: #f9f9f9;
+  text-decoration: none;
+}
+.gsgg .list-group li .hst {
+  background-color: #3f7fb5;
+  color: #FFF;
+  margin: 0;
+  padding: 10px 15px;
+}
+.gsgg .gsgg-pad {
+  padding: 0 5px 5px;
+}
+.gsgg .bt-xs {
+  padding: 0 80px;
+}
+.gsgg .bt-xs p {
+  text-indent: 24px;
+  line-height: 34px;
+}
+.xw .media {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.xw .media:hover {
+  border-bottom-color: #ac0f03;
+}
+.xw .media:hover .media-left img {
+  border-color: #ac0f03;
+}
+.xw .media .media-left img {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #eee;
+  height: 170px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.xw .media .media-left img:hover {
+  opacity: .8;
+}
+.xw .media .media-body {
+  padding: 10px 0;
+}
+.xw .media .media-body a {
+  color: #000;
+  text-decoration: none;
+}
+.xw .media .media-body p {
+  height: 40px;
+  overflow: hidden;
+  padding-right: 80px;
+}
+.xw .media .media-body p a {
+  display: inline-block;
+}
+.xw .media .media-body a:focus,
+.xw .media .media-body a:hover {
+  color: #ac0f03;
+  text-decoration: underline;
+}
+.xw .media .media-body h4 {
+  margin-top: 0;
+  height: 19px;
+  overflow: hidden;
+}
+.xw .media .media-body .media-span {
+  color: #b9b9b9;
+}
+.xw .media .media-body .buys {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eee;
+}
+.xw .media .media-body .buys:hover {
+  background: #ac0f03;
+  color: #fff;
+  text-decoration: none;
+}
+.page .pagination a {
+  color: #222;
+}
+.page .pagination > .active a {
+  background: #ac0f03;
+  color: #fff;
+  border-color: #ac0f03;
+}
+.hyxw {
+  background-color: #500000;
+}
+.breadcrumb {
+  margin: 0;
+  background: transparent;
+}
+.breadcrumb > .active {
+  color: #9d9d9d;
+}
+.de {
+  padding: 10px 0;
+}
+.de h3 {
+  margin: 0 0 20px 0;
+}
+.de .lb {
+  position: relative;
+}
+.de .lb ul {
+  width: 955px;
+  margin: 0 auto;
+  position: relative;
+  height: 175px;
+  overflow: hidden;
+}
+.de .lb ul li {
+  float: left;
+  width: 175px;
+  margin-right: 20px;
+  height: 175px;
+}
+.de .lb ul li img {
+  width: 100%;
+  border: 3px solid #eee;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.de .lb ul li img:hover {
+  opacity: .8;
+  border-color: #006498;
+}
+.de .bx-prev {
+  left: -13px;
+  background: url('../images/gsgg/lefs.jpg') no-repeat center;
+  width: 60px;
+  height: 60px;
+  top: 57px;
+}
+.de .bx-next {
+  right: -13px;
+  background: url('../images/gsgg/lef.jpg') no-repeat center;
+  width: 60px;
+  height: 60px;
+  top: 57px;
+}
+.de .rs {
+  position: absolute;
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 12px;
+  border-radius: 0 0 5px 5px;
+  background-color: #006498;
+  color: #fff;
+  margin-top: -20px;
+}
+.de .lso li {
+  margin-left: 20px;
+  float: left;
+  width: 190px;
+  height: 280px;
+}
+.de .lso li img {
+  width: 100%;
+  border: 3px solid #eee;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.de .lso li img:hover {
+  opacity: .8;
+  border-color: #006498;
+}
+.de .ate a {
+  color: #000;
+}
+.de .ate a:focus,
+.de .ate a:hover {
+  color: #FF9800;
+  text-decoration: underline;
+}
+.emila {
+  height: 440px;
+  background: url("../images/gsgg/sa.jpg") no-repeat center;
+}
+.emila .container {
+  padding: 50px 195px;
+}
+.emfas {
+  height: 788px;
+  background: url('../images/gsgg/lxwm.jpg') no-repeat center;
+  width: 100%;
 }
 
 /*# sourceMappingURL=./map/main.css.map */
